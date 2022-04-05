@@ -1,0 +1,9 @@
+1. Click -> Start -> Run -> Visual Studio Code
+2. In VS Code, Click -> Terminal -> New Terminal
+3. In VS Code terminal, cd desktop
+4. cd lab
+5. npx create-react-app google-login-app
+6. cd google-login-app
+7. In VS Code, Click -> File -> Open Folder -> Google-Login-App
+8. In VS Code Google-Login-App -> src, delete unnecessary files -> App.css, App.js, App.test.js, Index.css, logo.svg
+9. In VS Code Google-Login-App, -> src, create 2 new files -> login.js, style.css
