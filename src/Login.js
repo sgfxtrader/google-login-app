@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { GoogleLogin, GoogleLogout } from "react-google-login";
 
-const clientId = "Your-Client-Id";
+const clientId = "Your-Google-Project-Client-Id";
 
 function Login() {
   const [showloginButton, setShowloginButton] = useState(true);
@@ -28,7 +28,7 @@ function Login() {
       {showloginButton ? (
         <GoogleLogin
           clientId={clientId}
-          buttonText="Sign In"
+          buttonText="Sign Into the App"
           onSuccess={onLoginSuccess}
           onFailure={onLoginFailure}
           cookiePolicy={"single_host_origin"}
